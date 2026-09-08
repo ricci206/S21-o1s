@@ -2,9 +2,10 @@
   <img loading="lazy" src="readme-res/banner.png"/>
 </h1>
 <p align="center">
-  <a href="https://github.com/yacinegti/ProjectBerkyt/blob/main/LICENSE"><img loading="lazy" src="https://img.shields.io/github/license/yacinegti/ProjectBerkyt?style=for-the-badge&logo=github"/></a>
-  <a href="https://github.com/yacinegti/ProjectBerkyt/commits/sixteen"><img loading="lazy" src="https://img.shields.io/github/last-commit/yacinegti/ProjectBerkyt/main?style=for-the-badge"/></a>
-  <a href="https://github.com/yacinegti/ProjectBerkyt/stargazers"><img loading="lazy" src="https://img.shields.io/github/stars/yacinegti/ProjectBerkyt?style=for-the-badge"/></a>
+  <a href="https://github.com/Yacinegti-DZ/Project-Berkyt/blob/sixteen/LICENSE"><img loading="lazy" src="https://img.shields.io/github/license/Yacinegti-DZ/Project-Berkyt?style=for-the-badge&logo=github"/></a>
+  <a href="https://github.com/Yacinegti-DZ/Project-Berkyt/commits/sixteen"><img loading="lazy" src="https://img.shields.io/github/last-commit/Yacinegti-DZ/Project-Berkyt/sixteen?style=for-the-badge"/></a>
+  <a href="https://github.com/Yacinegti-DZ/Project-Berkyt/stargazers"><img loading="lazy" src="https://img.shields.io/github/stars/Yacinegti-DZ/Project-Berkyt?style=for-the-badge"/></a>
+</p>
 </p>
 <p align="center">Project Berkyt is a work-in-progress custom firmware for the Samsung Galaxy S21 5G, bringing OneUI 8.5 ported from the Galaxy S24+.</p>
 
