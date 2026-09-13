@@ -16,6 +16,7 @@ ADD_TO_WORK_DIR "$TARGET_FIRMWARE" "system" "system/etc/public.libraries-snap.sa
 # Add camera libs
 ADD_TO_WORK_DIR "$TARGET_FIRMWARE" "system" "system/etc/public.libraries-arcsoft.txt" 0 0 644 "u:object_r:system_file:s0"
 ADD_TO_WORK_DIR "$TARGET_FIRMWARE" "system" "system/lib64/libFace_Landmark_Engine.camera.samsung.so" 0 0 644 "u:object_r:system_lib_file:s0"
+ADD_TO_WORK_DIR "$TARGET_FIRMWARE" "system" "system/lib64/libFaceRestoration.camera.samsung.so" 0 0 644 "u:object_r:system_lib_file:s0"
 ADD_TO_WORK_DIR "$TARGET_FIRMWARE" "system" "system/lib64/libFacialStickerEngine.arcsoft.so" 0 0 644 "u:object_r:system_lib_file:s0"
 ADD_TO_WORK_DIR "$TARGET_FIRMWARE" "system" "system/lib64/libFood.camera.samsung.so" 0 0 644 "u:object_r:system_lib_file:s0"
 EVAL "echo \"libFood.camera.samsung.so\" >> \"$WORK_DIR/system/system/etc/public.libraries-camera.samsung.txt\""
@@ -53,6 +54,9 @@ EVAL "sed -i \"s/$TARGET_CODENAME/r0s/g\" \"$WORK_DIR/vendor/etc/midas/midas_con
 
 LOG_STEP_IN "- Replacing camera blobs"
 BLOBS_LIST="
+system/lib64/libenn_wrapper_system.so
+system/lib64/libdigital_tele_scope.arcsoft.so
+system/lib64/libdigital_tele_scope_rawsr.arcsoft.so
 system/lib64/libae_bracket_hdr.arcsoft.so
 system/lib64/libarcsoft_dualcam_portraitlighting.so
 system/lib64/libdualcam_refocus_gallery_48.so

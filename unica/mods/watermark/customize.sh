@@ -1,3 +1,8 @@
+    LOG_STEP_IN "- Adding floatingfeatures.xml"
+    ADD_TO_WORK_DIR "o1sxxx" "system" "etc" 0 0 644
+    LOG_STEP_OUT
+
+
 LOG_STEP_IN "- Removing \"AI-generated content\" watermark from all image generation apps"
 
 IMG_GEN_APPS="

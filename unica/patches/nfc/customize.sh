@@ -40,6 +40,14 @@ if [ "$(GET_PROP "vendor" "ro.vendor.nfc.feature.chipname")" ]; then
     fi
 fi
 
+LOG_STEP_IN "- Setting NFC value for o1s"
+SET_PROP "vendor" "ro.vendor.nfc.info.antpos" "4"
+SET_PROP "vendor" "ro.vendor.nfc.info.antposX" "25"
+SET_PROP "vendor" "ro.vendor.nfc.info.antposY" "41"
+SET_PROP "vendor" "ro.vendor.nfc.info.deviceWidth" "76"
+SET_PROP "vendor" "ro.vendor.nfc.info.deviceHeight" "159"
+LOG_STEP_OUT
+
 # SEC_PRODUCT_FEATURE_NFC_CHIP_NAME:=NXP_SN100U/NXP_PN553
 # - API 35 and below: libnfc_nxpsn_jni.so/libnfc_nxppn_jni.so
 # - API 36: libnfc_nci_jni.so

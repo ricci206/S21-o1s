@@ -14,7 +14,12 @@ PRODUCT_DEBLOAT+="
 overlay/SoftapOverlayQC
 "
 
+# DevGPUDriver
+SYSTEM_DEBLOAT+="
+system/priv-app/DevGPUDriver-EX2400
+"
+
 # GameDriver
 SYSTEM_DEBLOAT+="
-system/priv-app/GameDriver-SM8850
+system/priv-app/GameDriver-EX2400
 "

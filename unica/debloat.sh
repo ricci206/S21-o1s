@@ -106,12 +106,17 @@ app/Chrome64
 
 # Google Duo
 PRODUCT_DEBLOAT+="
-app/Duo
+app/DuoStub
 "
 
 # Google Maps
 PRODUCT_DEBLOAT+="
 app/Maps
+"
+
+# Google Messages
+PRODUCT_DEBLOAT+="
+priv-app/Messages
 "
 
 # Google PAI (Play Autoinstall)
@@ -131,6 +136,8 @@ system/etc/permissions/privapp-permissions-com.samsung.android.providers.factory
 system/etc/permissions/privapp-permissions-com.sec.facatfunction.xml
 system/priv-app/FacAtFunction
 system/priv-app/FactoryTestProvider
+system/app/WifiIntelligence
+
 "
 
 # Language packs
@@ -147,6 +154,14 @@ system/priv-app/LedCoverService
 SYSTEM_DEBLOAT+="
 system/priv-app/YourPhone_P1_5
 "
+
+# Smart Suggestions Bixby...
+SYSTEM_DEBLOAT+="
+system/priv-app/SamsungSmartSuggestions
+system/priv-app/Bixby
+system/app/BixbyWakeup
+"
+
 
 # Live Transcribe
 SYSTEM_DEBLOAT+="
@@ -213,14 +228,6 @@ SYSTEM_DEBLOAT+="
 system/etc/permissions/signature-permissions-com.samsung.android.offline.languagemodel.xml
 system/priv-app/OfflineLanguageModel_stub
 "
-
-# Samsung Messages
-SYSTEM_DEBLOAT+="
-system/etc/default-permissions/default-permissions-com.samsung.android.messaging.xml
-system/etc/permissions/privapp-permissions-com.samsung.android.messaging.xml
-system/priv-app/SamsungMessages
-"
-
 # Samsung Pass
 SYSTEM_DEBLOAT+="
 system/app/SamsungPassAutofill_v1
@@ -315,6 +322,12 @@ system/etc/permissions/privapp-permissions-com.samsung.android.svcagent.xml
 system/priv-app/SVCAgent
 "
 
+# Extra fonts
+SYSTEM_DEBLOAT+="
+system/app/Foundation
+system/app/Roboto
+system/app/SamsungOne
+"
 # SVoiceIME
 SYSTEM_DEBLOAT+="
 system/priv-app/SVoiceIME
@@ -329,4 +342,14 @@ system/etc/sysconfig/feature-a11y-preload-voacc.xml
 # YouTube
 PRODUCT_DEBLOAT+="
 app/YouTube
+"
+
+# Shit
+SYSTEM_DEBLOAT+="
+system/app/Fast
+system/app/KidsHome_Installer
+system/priv-app/BadgeProvider_N
+system/priv-app/SamsungBilling
+system/priv-app/serviceModeApp_FB
+system/bin/fabric_crypto
 "

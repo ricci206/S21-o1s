@@ -19,7 +19,7 @@ LOG_STEP_OUT
 LOG_STEP_IN "- Patching libvpl.so (64-bit only)"
 
 LIBVPL_64="$WORK_DIR/vendor/lib64/libvpl.so"
-PATCH_SCRIPT="$SRC_DIR/platform/exynos990/patches/eden/patch_libvpl_unload.py"
+PATCH_SCRIPT="$SRC_DIR/platform/exynos2100/patches/eden/patch_libvpl_unload.py"
 
 if [ -f "$LIBVPL_64" ] && [ -f "$PATCH_SCRIPT" ]; then
     LOG "- Patching vendor/lib64/libvpl.so (vplUnload → immediate return)"
