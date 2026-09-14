@@ -59,8 +59,6 @@ system/lib64/libdigital_tele_scope.arcsoft.so
 system/lib64/libdigital_tele_scope_rawsr.arcsoft.so
 system/lib64/libae_bracket_hdr.arcsoft.so
 system/lib64/libarcsoft_dualcam_portraitlighting.so
-system/lib64/libdualcam_refocus_gallery_48.so
-system/lib64/libdualcam_refocus_gallery_59.so
 system/lib64/libDualCamBokehCapture.camera.samsung.so
 system/lib64/libface_recognition.arcsoft.so
 system/lib64/libgallery_pic_best.arcsoft.so
