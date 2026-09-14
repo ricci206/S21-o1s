@@ -659,7 +659,10 @@ if [ ! -f "$FW_DIR/$TARGET_FIRMWARE_PATH/vendor/etc/permissions/android.hardware
         "false"
 fi
 
-
+        DECODE_APK "system" "system/framework/semwifi-service.jar"
+        LOG_STEP_IN "- Applying Hotspot 6GHz patches"
+        APPLY_PATCH "system" "system/framework/semwifi-service.jar" "$SRC_DIR/unica/patches/product_feature/wifi/semwifi-service.jar/0004-Disable-Hotspot-6GHz-support.patch"
+        LOG_STEP_OUT
 
 unset TARGET_FIRMWARE_PATH
 unset -f GET_FINGERPRINT_SENSOR_TYPE LOG_MISSING_PATCHES SEMWIFI_SERVICE_HAS_80211AX_6GHZ SECSETTINGS_HAS_80211AX_6GHZ SYSTEMUI_HAS_80211AX_6GHZ
