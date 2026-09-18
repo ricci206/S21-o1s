@@ -1,5 +1,6 @@
     LOG_STEP_IN "- Adding floatingfeatures.xml"
     ADD_TO_WORK_DIR "o1sxxx" "system" "etc" 0 0 644
+    ADD_TO_WORK_DIR "o1sxxx" "system" "lib64" 0 0 644
     LOG_STEP_OUT
 
 
