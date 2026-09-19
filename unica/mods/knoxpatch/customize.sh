@@ -35,10 +35,16 @@ SMALI_PATCH "system" "system/framework/services.jar" \
     "smali/com/android/server/knox/dar/DarManagerService.smali" "return" \
     'checkDeviceIntegrity([Ljava/security/cert/Certificate;)Z' 'true'
 
-# Disable DRK in DarManagerService
+# Disable DRK in DarManagerService 
 SMALI_PATCH "system" "system/framework/services.jar" \
     "smali/com/android/server/knox/dar/DarManagerService.smali" "return" \
     'isDeviceRootKeyInstalled()Z' 'true'
+    
+    SMALI_PATCH "system" "system/framework/services.jar" \
+    "smali/com/android/server/knox/dar/DarManagerService.smali" "return" \
+    'isKnoxKeyInstallable()Z' 'true'
+    
+    
 
 # Disable root checks in StorageManagerService
 SMALI_PATCH "system" "system/framework/services.jar" \

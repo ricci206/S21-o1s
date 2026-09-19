@@ -366,5 +366,6 @@ system/priv-app/KnoxERAgent
 system/priv-app/KnoxCore
 system/priv-app/knoxanalyticsagent
 system/priv-app/KLMSAgent
+system/priv-app/KnoxMposAgent
 system/app/BlockchainBasicKit
 "

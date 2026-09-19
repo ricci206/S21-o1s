@@ -98,4 +98,7 @@ else
     fi
 fi
 
-unset -f MATCH_TARGET_FEATURES
+LOG_STEP_IN "- Replacing gamebooster props"
+SET_PROP "product" "ro.gfx.driver.0" "$(GET_PROP "$WORK_DIR/vendor/build.prop" "ro.gfx.driver.0")"
+SET_PROP "product" "ro.gfx.driver.1" "$(GET_PROP "$WORK_DIR/vendor/build.prop" "ro.gfx.driver.1")"
+LOG_STEP_OUT
