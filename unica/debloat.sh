@@ -28,7 +28,6 @@ system/etc/permissions/privapp-permissions-com.samsung.ssu.xml
 system/etc/sysconfig/samsungsimunlock.xml
 system/lib64/android.security.securekeygeneration-ndk.so
 system/lib64/libssu_keystore2.so
-system/priv-app/CIDManager
 system/priv-app/SsuService
 "
 
@@ -76,6 +75,12 @@ system/priv-app/AppUpdateCenter
 SYSTEM_DEBLOAT+="
 system/etc/permissions/privapp-permissions-com.sec.bcservice.xml
 system/priv-app/BCService
+"
+
+# CIDManager
+SYSTEM_DEBLOAT+="
+system/priv-app/CIDManager
+system/etc/permissions/privapp-permissions-com.samsung.android.cidmanager.xml
 "
 
 # Gaming Hub
@@ -157,7 +162,6 @@ system/priv-app/YourPhone_P1_5
 
 # Smart Suggestions Bixby...
 SYSTEM_DEBLOAT+="
-system/priv-app/SamsungSmartSuggestions
 system/priv-app/Bixby
 system/app/BixbyWakeup
 "
@@ -346,26 +350,8 @@ app/YouTube
 
 # Shit
 SYSTEM_DEBLOAT+="
-system/app/Fast
 system/app/KidsHome_Installer
-system/priv-app/BadgeProvider_N
 system/priv-app/SamsungBilling
 system/priv-app/serviceModeApp_FB
 system/bin/fabric_crypto
-system/lib64/vendor.samsung.hardware.security.engmode-V1-ndk.so
-system/priv-app/SecureFolder
-system/priv-app/KPECore
-system/priv-app/KnoxZtFramework
-system/priv-app/knoxvpnproxyhandler
-system/priv-app/KnoxSandbox
-system/priv-app/KnoxPushManager
-system/priv-app/KnoxNeuralNetworkRuntime
-system/priv-app/KnoxNetworkFilter
-system/priv-app/KnoxFrameBufferProvider
-system/priv-app/KnoxERAgent
-system/priv-app/KnoxCore
-system/priv-app/knoxanalyticsagent
-system/priv-app/KLMSAgent
-system/priv-app/KnoxMposAgent
-system/app/BlockchainBasicKit
 "

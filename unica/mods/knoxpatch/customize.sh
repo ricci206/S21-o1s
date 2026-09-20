@@ -5,6 +5,24 @@ DELETE_FROM_WORK_DIR "system" "system/lib/vendor.samsung.hardware.security.wsm.s
 DELETE_FROM_WORK_DIR "system" "system/lib64/libhal.wsm.samsung.so"
 DELETE_FROM_WORK_DIR "system" "system/lib64/vendor.samsung.hardware.security.wsm.service-V1-ndk.so"
 
+# Nuke Knox 
+DELETE_FROM_WORK_DIR "system" "system/app/BlockchainBasicKit"
+DELETE_FROM_WORK_DIR "system" "system/priv-app/KPECore"
+DELETE_FROM_WORK_DIR "system" "system/priv-app/KnoxZtFramework"
+DELETE_FROM_WORK_DIR "system" "system/priv-app/knoxvpnproxyhandler"
+DELETE_FROM_WORK_DIR "system" "system/priv-app/KnoxSandbox"
+DELETE_FROM_WORK_DIR "system" "system/priv-app/KnoxPushManager"
+DELETE_FROM_WORK_DIR "system" "system/priv-app/KnoxNeuralNetworkRuntime"
+DELETE_FROM_WORK_DIR "system" "system/priv-app/KnoxNetworkFilter"
+DELETE_FROM_WORK_DIR "system" "system/priv-app/KnoxFrameBufferProvider"
+DELETE_FROM_WORK_DIR "system" "system/priv-app/KnoxERAgent"
+DELETE_FROM_WORK_DIR "system" "system/priv-app/KnoxCore"
+DELETE_FROM_WORK_DIR "system" "system/priv-app/knoxanalyticsagent"
+DELETE_FROM_WORK_DIR "system" "system/priv-app/KLMSAgent"
+DELETE_FROM_WORK_DIR "system" "system/priv-app/KnoxMposAgent"
+
+
+
 # Add KnoxPatchHooks
 APPLY_PATCH "system" "system/framework/framework.jar" \
     "$MODPATH/framework.jar/0001-Introduce-KnoxPatchHooks.patch"
@@ -40,6 +58,7 @@ SMALI_PATCH "system" "system/framework/services.jar" \
     "smali/com/android/server/knox/dar/DarManagerService.smali" "return" \
     'isDeviceRootKeyInstalled()Z' 'true'
     
+# Disable Secure Folder    
     SMALI_PATCH "system" "system/framework/services.jar" \
     "smali/com/android/server/knox/dar/DarManagerService.smali" "return" \
     'isKnoxKeyInstallable()Z' 'true'
