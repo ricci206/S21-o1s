@@ -63,6 +63,12 @@ system/lib64/libDualCamBokehCapture.camera.samsung.so
 system/lib64/libface_recognition.arcsoft.so
 system/lib64/libgallery_pic_best.arcsoft.so
 system/lib64/libhybrid_high_dynamic_range.arcsoft.so
+system/lib64/libAEBHDR_wrapper.camera.samsung.so
+system/lib64/libAIQSolution_MPISingleRGB40.camera.samsung.so
+system/lib64/libdvs.camera.samsung.so
+system/lib64/libhybridHDR_wrapper.camera.samsung.so
+system/lib64/libMPISingleRGB40.camera.samsung.so
+system/lib64/libMPISingleRGB40Tuning.camera.samsung.so
 "
 for blob in $BLOBS_LIST
 do

@@ -238,8 +238,6 @@ _APPEND_CONTEXT "$WORK_DIR/vendor/etc/selinux/vendor_service_contexts" "vendor.s
 _APPEND_CONTEXT "$WORK_DIR/vendor/etc/selinux/vendor_service_contexts" "vendor.samsung.hardware.bluetooth.audio.ISehBluetoothAudioProviderFactory/default" "hal_audio_service"
 _APPEND_CONTEXT "$WORK_DIR/vendor/etc/selinux/vendor_service_contexts" "vendor.samsung.hardware.nfc_aidl.ISehNfc/default" "hal_nfc_service"
 _APPEND_CONTEXT "$WORK_DIR/vendor/etc/selinux/vendor_service_contexts" "android.hardware.security.keymint.IRemotelyProvisionedComponent/strongbox" "hal_remotelyprovisionedcomponent_service"
-_APPEND_CONTEXT "$WORK_DIR/vendor/etc/selinux/vendor_service_contexts" "vendor.qti.hardware.display.config.IDisplayConfig/default" "vendor_hal_displayconfig_service"
-_APPEND_CONTEXT "$WORK_DIR/vendor/etc/selinux/vendor_service_contexts" "vendor.qti.hardware.display.aiqe.IDisplayAiqe/default" "vendor_hal_displayconfig_service"
 _APPEND_CONTEXT "$WORK_DIR/vendor/etc/selinux/vendor_hwservice_contexts" "vendor.display.config::IDisplayConfig" "hal_vendor_configstore_hwservice"
 _APPEND_CONTEXT "$WORK_DIR/$(GET_SYSTEM_EXT)/etc/selinux/system_ext_service_contexts" "vendor.samsung.hardware.kg30.ISehKg30/default" "knoxguard_service"
 _APPEND_CONTEXT "$WORK_DIR/$(GET_SYSTEM_EXT)/etc/selinux/system_ext_service_contexts" "vendor.samsung.hardware.khdm.ISehKhdm/default" "EDM_Policy_service"
