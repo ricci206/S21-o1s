@@ -261,6 +261,8 @@
     <local name="SUPPORT_NIGHT_CIRCLE_SCREEN_FLASH" value="true"/>
 
     <local name="SUPPORT_QUICK_VIEW_SCALE_VI" value="true"/>
+	
+    <local name="SUPPORT_DEFAULT_HEVC" value="true"/>
 
     <!-- camera assistant features -->
     <local name="SUPPORT_CAMERA_ASSISTANT" value="true"/>
