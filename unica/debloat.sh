@@ -350,8 +350,12 @@ app/YouTube
 
 # Shit
 SYSTEM_DEBLOAT+="
+system/app/CarrierDefaultApp
 system/app/KidsHome_Installer
 system/priv-app/SamsungBilling
-system/priv-app/serviceModeApp_FB
+system/priv-app/DualOutFocusViewer_V
+system/app/Fast
 system/bin/fabric_crypto
+system/etc/permissions/FabricCryptoLib.xml
+system/framework/FabricCryptoLib.jar
 "

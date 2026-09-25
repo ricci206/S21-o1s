@@ -17,6 +17,8 @@ DELETE_FROM_WORK_DIR "system" "system/priv-app/KnoxCore"
 DELETE_FROM_WORK_DIR "system" "system/priv-app/knoxanalyticsagent"
 DELETE_FROM_WORK_DIR "system" "system/priv-app/KLMSAgent"
 DELETE_FROM_WORK_DIR "system" "system/priv-app/KnoxMposAgent"
+DELETE_FROM_WORK_DIR "system" "system/priv-app/KnoxNetworkFilter"
+DELETE_FROM_WORK_DIR "system" "system/priv-app/knoxvpnproxyhandler"
 
 
 

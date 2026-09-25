@@ -19,7 +19,7 @@ COPY_SOURCE_FIRMWARE()
             sed "/system_ext/d" "$FW_DIR/$SOURCE_FIRMWARE_PATH/fs_config-$f" > "$WORK_DIR/configs/fs_config-$f"
             if [[ "$f" == "product" ]]; then
                 LOG_STEP_IN
-                SET_PROP "product" "ro.product.product.name" "$(GET_PROP "$FW_DIR/$TARGET_FIRMWARE_PATH/product/etc/build.prop" "ro.product.product.name")"
+#                SET_PROP "product" "ro.product.product.name" "$(GET_PROP "$FW_DIR/$TARGET_FIRMWARE_PATH/product/etc/build.prop" "ro.product.product.name")"
                 LOG_STEP_OUT
             elif [[ "$f" == "system" ]]; then
                 LOG_STEP_IN

@@ -9,11 +9,20 @@
 
 - Base S24+ (S926BXXSHDZH3) August patch 2026
 
--Secure folder work
--Wifi protect work
--Screen shot on secure app work
--Samsung health work
--camera work perfectly
+- Galaxy AI support
+- Debloated
+- Enable vulkan
+- Fix Secure folder
+- Fix wifi hotspot
+- Camera work all mode
+- Enable outdoor mode
+- Auto 4 digit pin 
+- Secure screen shot in all app
+- Dual messenger for all app
+- Applock
+
+
+
 
 
 ***Bug***
