@@ -1,3 +1,4 @@
+<img width="1978" height="1148" alt="banner" src="https://github.com/user-attachments/assets/3ca158f6-d2f8-4768-ac70-9a6de736e525" />
 
 <p align="center">Maniac Rom - Work-in-progress custom firmware for the Samsung Galaxy S21 5G, bringing OneUI 8.5 ported from the Galaxy S24+.</p>
 
