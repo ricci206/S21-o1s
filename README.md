@@ -1,27 +1,14 @@
-<h1 align="center">
-  <img loading="lazy" src="readme-res/banner.png"/>
-</h1>
-<p align="center">
-  <a href="https://github.com/Yacinegti-DZ/Project-Berkyt/blob/sixteen/LICENSE"><img loading="lazy" src="https://img.shields.io/github/license/Yacinegti-DZ/Project-Berkyt?style=for-the-badge&logo=github"/></a>
-  <a href="https://github.com/Yacinegti-DZ/Project-Berkyt/commits/sixteen"><img loading="lazy" src="https://img.shields.io/github/last-commit/Yacinegti-DZ/Project-Berkyt/sixteen?style=for-the-badge"/></a>
-  <a href="https://github.com/Yacinegti-DZ/Project-Berkyt/stargazers"><img loading="lazy" src="https://img.shields.io/github/stars/Yacinegti-DZ/Project-Berkyt?style=for-the-badge"/></a>
-</p>
-</p>
-<p align="center">Work-in-progress custom firmware for the Samsung Galaxy S21 5G, bringing OneUI 8.5 ported from the Galaxy S24+.</p>
 
-<p align="center">
-  <a href="https://t.me/project_berkyt">💬 Telegram</a>
-  •
-  <a href="https://github.com/FlopKernel-Series/flop_exynos2100_kernel">🧠 Kernel Source</a>
-</p>
+<p align="center">Maniac Rom - Work-in-progress custom firmware for the Samsung Galaxy S21 5G, bringing OneUI 8.5 ported from the Galaxy S24+.</p>
 
-# What is Project Berkyt?
 Work-in-progress custom firmware for the Samsung Galaxy S21 5G (SM-G991B), bringing the OneUI 8.5 experience  ported from the Galaxy S24+ to the samsung galaxy s21 family.
 The base is sourced from Samsung's S926B firmware on the latest security patch, fully deknoxed and optimized, with the complete Galaxy AI (S26 AI) suite and S26 sounds and ringtones. The base firmware is updated frequently, so expect regular patch-level updates to follow.
 Any form of contribution, suggestion, bug report or feature request for the project is welcome.
 
 # Features
+
 Initial release
+
 Support for o1s only
 . OneUI 8.5
 
@@ -50,10 +37,9 @@ Dual messenger for all app
 Applock
 
 Bug
-
 DEX ?
 
-This ROM is a mix of UN1CA
+This ROM is a mix of UN1CA and ExtremeRom
 
 
 
