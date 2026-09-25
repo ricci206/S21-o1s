@@ -7,7 +7,7 @@
   <a href="https://github.com/Yacinegti-DZ/Project-Berkyt/stargazers"><img loading="lazy" src="https://img.shields.io/github/stars/Yacinegti-DZ/Project-Berkyt?style=for-the-badge"/></a>
 </p>
 </p>
-<p align="center">Project Berkyt is a work-in-progress custom firmware for the Samsung Galaxy S21 5G, bringing OneUI 8.5 ported from the Galaxy S24+.</p>
+<p align="center">Work-in-progress custom firmware for the Samsung Galaxy S21 5G, bringing OneUI 8.5 ported from the Galaxy S24+.</p>
 
 <p align="center">
   <a href="https://t.me/project_berkyt">💬 Telegram</a>
@@ -16,66 +16,44 @@
 </p>
 
 # What is Project Berkyt?
-Project Berkyt is a work-in-progress custom firmware for the Samsung Galaxy S21 5G (SM-G991B/SM-G991N), bringing the OneUI 8.5 experience  ported from the Galaxy S24+ to the samsung galaxy s21 family.
+Work-in-progress custom firmware for the Samsung Galaxy S21 5G (SM-G991B), bringing the OneUI 8.5 experience  ported from the Galaxy S24+ to the samsung galaxy s21 family.
 The base is sourced from Samsung's S926B firmware on the latest security patch, fully deknoxed and optimized, with the complete Galaxy AI (S26 AI) suite and S26 sounds and ringtones. The base firmware is updated frequently, so expect regular patch-level updates to follow.
 Any form of contribution, suggestion, bug report or feature request for the project is welcome.
 
 # Features
-### Core features:
-- Based on Samsung's S24+ firmware
-- Galaxy AI  support 
-- S26 sounds and ringtones
-- Picture remaster support
-- Image clipper support
-- Outdoor mode support
-- High end animations
-- Native/live blur support
-- AOD clock transition support
-- Adaptive color tone support
-- Adaptive refresh rate support
-- Extra brightness support
-- Object, shadow and reflection eraser support
-- Samsung DeX support
-- Camera privacy toggle support
-- Debloated from useless system services/additional apps
-- Dual Messenger available for all apps
-- Custom FlipFont fonts support
-- Auto PIN confirm with 4 digits
-- [BluetoothLibraryPatcher](https://github.com/3arthur6/BluetoothLibraryPatcher) integrated
-- [KnoxPatch](https://github.com/salvogiangri/KnoxPatch) integrated
-- Extra CSC features enabled (Call recording, Hiya, Network speed in status bar, AltZLife)
-- Audio eraser
-- Browsing assist
-- Call assist
-- Drawing assist
-- Interpreter
-- Note assist
-- Now brief
-- now nudge
-- Photo assist
-- Semantic search
-- Transcript assist
-- Writing assist
+Initial release
+Support for o1s only
+. OneUI 8.5
 
+Base S24+ (S926BXXSHDZH3) August patch 2026
 
+Galaxy AI support
 
-### UN1CA-exclusive features:
-- Integrated OTA updates app
-- Native/live blur toggle
-- One UI Home animations option
-- Vulkan renderer toggle
-- Key attestation spoof ([TrickyStore](https://github.com/5ec1cff/TrickyStore)) options*
-- Play Integrity Fix integrated
-- Ability to hide installed apps ([Hide My Applist](https://github.com/Dr-TSNG/Hide-My-Applist))
-- Ability to hide developer options
-- Allow app downgrade toggle
-- Allow installing apps with old targetSdk toggle
-- Allow secure screenshot toggle
-- Screenshot/screen recording detection toggle
-- Unlimited backup storage on Google Photos
-- Games FPS unlock toggle
+Debloated
 
-\* Requires a valid keybox
+Enable vulkan
+
+Fix Secure folder
+
+Fix wifi hotspot
+
+Camera work all mode
+
+Enable outdoor mode
+
+Auto 4 digit pin
+
+Secure screen shot in all app
+
+Dual messenger for all app
+
+Applock
+
+Bug
+
+DEX ?
+
+This ROM is a mix of UN1CA
 
 
 
