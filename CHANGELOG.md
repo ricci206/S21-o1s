@@ -23,7 +23,8 @@
 - Applock
 
 
-
+- Floppy kernel 1.1.2
+- SBWC patch included
 
 
 ***Bug***
