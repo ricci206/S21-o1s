@@ -13,7 +13,7 @@ Initial release
 Support for o1s only
 . OneUI 8.5
 
-Base S24+ (S926BXXSHDZH3) August patch 2026
+Base S24+ (S926BXXSHDZI1) September patch 2026
 
 Full Galaxy AI support
 
