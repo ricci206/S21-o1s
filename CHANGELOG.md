@@ -21,10 +21,11 @@
 - Secure screen shot in all app
 - Dual messenger for all app
 - Applock
+- Fix SBWC patch 
 
 
 - Floppy kernel 1.1.2
-- SBWC patch included
+
 
 
 ***Bug***
