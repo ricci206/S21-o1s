@@ -1,0 +1,36 @@
+diff -Naur SecSettings.a/smali_classes5/com/samsung/android/settings/nfc/NfcAntennaGuideDialog.smali SecSettings.b/smali_classes5/com/samsung/android/settings/nfc/NfcAntennaGuideDialog.smali
+--- SecSettings.a/smali_classes5/com/samsung/android/settings/nfc/NfcAntennaGuideDialog.smali	2026-10-19 19:08:48.399700967 +0200
++++ SecSettings.b/smali_classes5/com/samsung/android/settings/nfc/NfcAntennaGuideDialog.smali	2026-10-21 14:22:37.000000000 +0200
+@@ -134,7 +134,7 @@
+ 
+     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setText(I)V
+ 
+-    const-string v1, "4"
++    const-string v1, "1"
+ 
+     invoke-static {v1}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
+ 
+diff -Naur SecSettings.a/smali_classes5/com/samsung/android/settings/nfc/NfcJpnAntennaAnimationHelper.smali SecSettings.b/smali_classes5/com/samsung/android/settings/nfc/NfcJpnAntennaAnimationHelper.smali
+--- SecSettings.a/smali_classes5/com/samsung/android/settings/nfc/NfcJpnAntennaAnimationHelper.smali	2026-10-19 19:08:48.422982900 +0200
++++ SecSettings.b/smali_classes5/com/samsung/android/settings/nfc/NfcJpnAntennaAnimationHelper.smali	2026-10-21 14:24:46.000000000 +0200
+@@ -130,7 +130,7 @@
+     iput-boolean v4, p0, Lcom/samsung/android/settings/nfc/NfcJpnAntennaAnimationHelper;->isB7Model:Z
+ 
+     :cond_0
+-    const-string v3, "4"
++    const-string v3, "1"
+ 
+     invoke-static {v3}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
+ 
+diff -Naur SecSettings.a/smali_classes5/com/samsung/android/settings/nfc/NfcSettings.smali SecSettings.b/smali_classes5/com/samsung/android/settings/nfc/NfcSettings.smali
+--- SecSettings.a/smali_classes5/com/samsung/android/settings/nfc/NfcSettings.smali	2026-10-19 19:08:48.473930450 +0200
++++ SecSettings.b/smali_classes5/com/samsung/android/settings/nfc/NfcSettings.smali	2026-10-21 14:25:38.000000000 +0200
+@@ -1958,7 +1958,7 @@
+     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setContentDescription(Ljava/lang/CharSequence;)V
+ 
+     :goto_3
+-    const-string v1, "4"
++    const-string v1, "1"
+ 
+     invoke-static {v1}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
+ 

@@ -148,14 +148,6 @@ system/app/WifiIntelligence
 # Language packs
 SYSTEM_DEBLOAT+="$(find "$WORK_DIR/system" -type d -name "*TTSVoice*" | sed "s|$WORK_DIR/system/||g")"
 
-# LED Cover Service
-[ "$(GET_FLOATING_FEATURE_CONFIG "SEC_FLOATING_FEATURE_FRAMEWORK_CONFIG_NFC_LED_COVER_LEVEL")" -lt "30" ] && SYSTEM_DEBLOAT+="
-system/etc/permissions/privapp-permissions-com.sec.android.cover.ledcover.xml
-system/priv-app/LedCoverService
-"
-
-
-
 # Bixby
 SYSTEM_DEBLOAT+="
 system/priv-app/Bixby
@@ -348,6 +340,7 @@ app/YouTube
 SYSTEM_DEBLOAT+="
 system/app/CarrierDefaultApp
 system/app/KidsHome_Installer
+system/app/UwbTest
 system/priv-app/SamsungBilling
 system/priv-app/DualOutFocusViewer_V
 system/app/Fast
