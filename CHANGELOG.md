@@ -1,6 +1,6 @@
 # Maniac ROM changelog
 
-## 4.0.0
+## 4.0.1
 
 - Initial release
 - Support for o1s only
@@ -22,15 +22,17 @@
 - Dual messenger for all app
 - Applock
 - Fix SBWC patch 
+- Fix Flip smart view cover support
 
 
-- Floppy kernel 1.1.2
+
+- Floppy kernel 1.1.3 with KSUNext-SUSFS included
 
 
 
 ***Bug***
 
-DEX ?
+DEX  not tested
 
 
 

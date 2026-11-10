@@ -171,12 +171,6 @@ system/priv-app/FBInstaller_NS
 system/priv-app/FBServices
 "
 
-# Microsoft OneDrive
-SYSTEM_DEBLOAT+="
-system/etc/permissions/privapp-permissions-com.microsoft.skydrive.xml
-system/priv-app/OneDrive_Samsung_v3
-"
-
 # Samsung Analytics
 SYSTEM_DEBLOAT+="
 system/app/DsmsAPK
@@ -203,11 +197,6 @@ system/priv-app/AvatarEmojiSticker
 # Samsung Calendar
 SYSTEM_DEBLOAT+="
 system/app/SamsungCalendar
-"
-
-# Samsung Clock
-SYSTEM_DEBLOAT+="
-system/app/ClockPackage
 "
 
 # Samsung Free

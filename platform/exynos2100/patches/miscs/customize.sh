@@ -2,31 +2,11 @@ LOG_STEP_IN "- Setting FUSE passthrough"
 SET_PROP "vendor" "persist.sys.fuse.passthrough.enable" "true"
 LOG_STEP_OUT
 
-LOG_STEP_IN "- Enabling Vulkan"
-# Remove ro.hwui.use_vulkan= from vendor/build.prop
-VENDOR_BUILD_PROP="$WORK_DIR/vendor/build.prop"
-if [ -f "$VENDOR_BUILD_PROP" ]; then
-    LOG "- Removing \"ro.hwui.use_vulkan=\" from vendor/build.prop"
-    EVAL "sed -i '/^ro\.hwui\.use_vulkan=$/d' \"$VENDOR_BUILD_PROP\""
-fi
 
-SET_PROP "vendor" "ro.hwui.use_vulkan" "true"
-SET_PROP "vendor" "debug.hwui.use_hint_manager" "true"
-SET_PROP "system" "# Enhanced Vulkan" "max speed"
-SET_PROP "system" "debug.hwui.skia_atrace_enabled" "false"
-SET_PROP "system" "debug.hwui.renderer" "skiavk"
-SET_PROP "system" "debug.renderengine.backend" "skiavk"
-SET_PROP "system" "renderthread.skia.reduceopstasksplitting" "true"
-LOG_STEP_OUT
 
-LOG_STEP_IN "- Disable sbwc"
-VENDOR_BUILD_PROP="$WORK_DIR/vendor/build.prop"
-if [ -f "$VENDOR_BUILD_PROP" ]; then
-	LOG "- Removing \"vendor.debug.c2.sbwc.enable=true\" from vendor/build.prop"
-    EVAL "sed -i '/^vendor\.debug\.c2.sbwc.enable=true$/d' \"$VENDOR_BUILD_PROP\""	
-fi
 
-LOG_STEP_OUT
+
+
 
 LOG_STEP_IN "- Disable a2dp_offload"
 SET_PROP "system" "# BT"

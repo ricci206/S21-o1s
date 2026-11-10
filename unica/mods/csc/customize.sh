@@ -16,5 +16,5 @@ REMOTE_SUPPORT_CONTROLLER="$(find "$APKTOOL_DIR/system/priv-app/SecSettings/SecS
 SMALI_PATCH "system" "system/priv-app/SecSettings/SecSettings.apk" \
     "$REMOTE_SUPPORT_CONTROLLER" "return" \
     'getAvailabilityStatus()I' '3'
-
+    
 unset SYSTEMUI_DEVICE_CONTROLLER REMOTE_SUPPORT_CONTROLLER
