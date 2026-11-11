@@ -1,0 +1,12 @@
+diff -Naur SecSettings.a/smali_classes5/com/samsung/android/settings/deviceinfo/aboutphone/ModelNameGetter.smali SecSettings.b/smali_classes5/com/samsung/android/settings/deviceinfo/aboutphone/ModelNameGetter.smali
+--- SecSettings.a/smali_classes5/com/samsung/android/settings/deviceinfo/aboutphone/ModelNameGetter.smali	2026-11-10 11:06:47.805479382 +0100
++++ SecSettings.b/smali_classes5/com/samsung/android/settings/deviceinfo/aboutphone/ModelNameGetter.smali	2026-11-10 11:16:41.000000000 +0100
+@@ -48,7 +48,7 @@
+ 
+     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+ 
+-    const-string/jumbo v2, "ro.product.model"
++    const-string/jumbo v2, "ro.boot.em.model"
+ 
+     invoke-static {v2}, Landroid/os/SystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
+ 

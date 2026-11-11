@@ -148,6 +148,12 @@ system/app/WifiIntelligence
 # Language packs
 SYSTEM_DEBLOAT+="$(find "$WORK_DIR/system" -type d -name "*TTSVoice*" | sed "s|$WORK_DIR/system/||g")"
 
+# Samsung Kids
+SYSTEM_DEBLOAT+="
+system/etc/permissions/signature-permissions-com.sec.android.app.kidshome.xml
+system/app/KidsHome_Installer
+"
+
 # Bixby
 SYSTEM_DEBLOAT+="
 system/priv-app/Bixby
@@ -328,7 +334,6 @@ app/YouTube
 # Shit
 SYSTEM_DEBLOAT+="
 system/app/CarrierDefaultApp
-system/app/KidsHome_Installer
 system/app/UwbTest
 system/priv-app/SamsungBilling
 system/priv-app/DualOutFocusViewer_V
